@@ -1,8 +1,12 @@
 import React from 'react'
+import VoiceChat from './components/VoiceChat'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1>Fitness Bot</h1>
+      <VoiceChat />
+    </div>
   )
 }
 
